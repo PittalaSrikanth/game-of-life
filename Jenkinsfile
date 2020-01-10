@@ -8,7 +8,7 @@ stage('maven-package')
 {
 sh label: '', script: 'mvn clean package'
 }
-stage('archive')
+stage('archive-gol')
 {
 archive 'gameoflife-build/target/*.jar'
 }
