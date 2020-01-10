@@ -1,6 +1,6 @@
 node('UBUNTU')
 {
-stage('git')
+stage('git-hub')
 {
 git 'https://github.com/PittalaSrikanth/game-of-life.git'
 }
